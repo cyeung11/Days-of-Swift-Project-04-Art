@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		8383B354212BCED800F86F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B353212BCED800F86F08 /* AppDelegate.swift */; };
-		8383B356212BCED800F86F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B355212BCED800F86F08 /* ViewController.swift */; };
 		8383B359212BCED800F86F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8383B357212BCED800F86F08 /* Main.storyboard */; };
 		8383B35B212BCEDB00F86F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8383B35A212BCEDB00F86F08 /* Assets.xcassets */; };
 		8383B35E212BCEDB00F86F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8383B35C212BCEDB00F86F08 /* LaunchScreen.storyboard */; };
+		8383B366212BCF1800F86F08 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 8383B365212BCF1700F86F08 /* artists.json */; };
+		8383B368212BD42300F86F08 /* ArtistTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B367212BD42300F86F08 /* ArtistTTableViewCell.swift */; };
+		8383B36A212BD77100F86F08 /* PaintingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B369212BD77100F86F08 /* PaintingTableViewCell.swift */; };
+		8383B36C212BDA5800F86F08 /* ArtistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B36B212BDA5800F86F08 /* ArtistTableViewController.swift */; };
+		8383B36E212BDA6400F86F08 /* PaintTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B36D212BDA6400F86F08 /* PaintTableViewController.swift */; };
+		8383B373212BDB8D00F86F08 /* Artists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B372212BDB8D00F86F08 /* Artists.swift */; };
+		8383B375212BDE7600F86F08 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B374212BDE7600F86F08 /* Model.swift */; };
+		8383B377212C018E00F86F08 /* ButtonClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383B376212C018E00F86F08 /* ButtonClick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8383B350212BCED800F86F08 /* Project 04 Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 04 Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8383B353212BCED800F86F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8383B355212BCED800F86F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8383B358212BCED800F86F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8383B35A212BCEDB00F86F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8383B35D212BCEDB00F86F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8383B35F212BCEDB00F86F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8383B365212BCF1700F86F08 /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		8383B367212BD42300F86F08 /* ArtistTTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTTableViewCell.swift; sourceTree = "<group>"; };
+		8383B369212BD77100F86F08 /* PaintingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCell.swift; sourceTree = "<group>"; };
+		8383B36B212BDA5800F86F08 /* ArtistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewController.swift; sourceTree = "<group>"; };
+		8383B36D212BDA6400F86F08 /* PaintTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintTableViewController.swift; sourceTree = "<group>"; };
+		8383B372212BDB8D00F86F08 /* Artists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artists.swift; sourceTree = "<group>"; };
+		8383B374212BDE7600F86F08 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8383B376212C018E00F86F08 /* ButtonClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		8383B352212BCED800F86F08 /* Project 04 Art */ = {
 			isa = PBXGroup;
 			children = (
-				8383B353212BCED800F86F08 /* AppDelegate.swift */,
-				8383B355212BCED800F86F08 /* ViewController.swift */,
 				8383B357212BCED800F86F08 /* Main.storyboard */,
-				8383B35A212BCEDB00F86F08 /* Assets.xcassets */,
-				8383B35C212BCEDB00F86F08 /* LaunchScreen.storyboard */,
+				8383B36B212BDA5800F86F08 /* ArtistTableViewController.swift */,
+				8383B367212BD42300F86F08 /* ArtistTTableViewCell.swift */,
+				8383B36D212BDA6400F86F08 /* PaintTableViewController.swift */,
+				8383B369212BD77100F86F08 /* PaintingTableViewCell.swift */,
+				8383B376212C018E00F86F08 /* ButtonClick.swift */,
+				8383B374212BDE7600F86F08 /* Model.swift */,
+				8383B36F212BDA6700F86F08 /* Misc */,
 				8383B35F212BCEDB00F86F08 /* Info.plist */,
 			);
 			path = "Project 04 Art";
+			sourceTree = "<group>";
+		};
+		8383B36F212BDA6700F86F08 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				8383B353212BCED800F86F08 /* AppDelegate.swift */,
+				8383B35A212BCEDB00F86F08 /* Assets.xcassets */,
+				8383B372212BDB8D00F86F08 /* Artists.swift */,
+				8383B365212BCF1700F86F08 /* artists.json */,
+				8383B35C212BCEDB00F86F08 /* LaunchScreen.storyboard */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +153,7 @@
 			files = (
 				8383B35E212BCEDB00F86F08 /* LaunchScreen.storyboard in Resources */,
 				8383B35B212BCEDB00F86F08 /* Assets.xcassets in Resources */,
+				8383B366212BCF1800F86F08 /* artists.json in Resources */,
 				8383B359212BCED800F86F08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8383B356212BCED800F86F08 /* ViewController.swift in Sources */,
+				8383B375212BDE7600F86F08 /* Model.swift in Sources */,
+				8383B373212BDB8D00F86F08 /* Artists.swift in Sources */,
+				8383B36E212BDA6400F86F08 /* PaintTableViewController.swift in Sources */,
+				8383B36C212BDA5800F86F08 /* ArtistTableViewController.swift in Sources */,
+				8383B368212BD42300F86F08 /* ArtistTTableViewCell.swift in Sources */,
 				8383B354212BCED800F86F08 /* AppDelegate.swift in Sources */,
+				8383B377212C018E00F86F08 /* ButtonClick.swift in Sources */,
+				8383B36A212BD77100F86F08 /* PaintingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUVTA8Q65R;
 				INFOPLIST_FILE = "Project 04 Art/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUVTA8Q65R;
 				INFOPLIST_FILE = "Project 04 Art/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
